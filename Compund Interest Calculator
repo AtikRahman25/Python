@@ -1,1 +1,34 @@
+#compund interest calculator
 
+
+principal=0
+time=0
+rate=0
+
+while principal<=0:
+    #print("principal cant be less than zero")
+    principal=float(input("Enter principaL"))
+    if principal <=0:
+        print("Principal cant be less then zero")
+
+print(principal)
+
+while time<=0:
+    #print("principal cant be less than zero")
+    time=float(input("Enter time"))
+    if time <=0:
+        print("time cant be less then zero")
+
+print(time)
+
+while rate<=0:
+    #print("principal cant be less than zero")
+    rate=float(input("Enter rate"))
+    if rate <=0:
+        print("rate cant be less then zero")
+
+print(rate)
+
+
+total_balance= principal*pow(1+rate,time)
+print(total_balance)
