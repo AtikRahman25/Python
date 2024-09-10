@@ -30,5 +30,5 @@ while rate<=0:
 print(rate)
 
 
-total_balance= principal*pow(1+rate,time)
+total_balance= principal*pow(1+rate/100,time)
 print(total_balance)
